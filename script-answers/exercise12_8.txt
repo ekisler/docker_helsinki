@@ -1,0 +1,106 @@
+Script iniciado en 2024-09-04 12:12:03-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="153" LINES="7"]
+[?2004h]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ [K]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ [K]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ [K]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ mongosh
+[?2004lbash: mongosh: orden no encontrada
+[?2004h]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ sudo docker start -i [K]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ sudo docker start -i [K]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ sudo docker start -i [K]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ sudo docker start -i [K]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ sudo docker start -i [K]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ sudo docker start -i [K]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ sudo docker start -i [K]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ sudo docker start -i [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdocker mongoshls[Kscript -c "bash" exercise12_8.txtMONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev[A]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ [39Pdocker compose -f docker-compose.dev.yml up
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pfb753227fd4b[C[C[C[11Pntainer ls -a
+[?2004lCONTAINER ID   IMAGE            COMMAND                  CREATED        STATUS                      PORTS                                           NAMES
+9bcc73b77931   mongo            "docker-entrypoint.s…"   2 hours ago    Up 2 minutes                0.0.0.0:3456->27017/tcp, [::]:3456->27017/tcp   todo-backend-mongo-1
+60ea769e8fa7   express-server   "docker-entrypoint.s…"   19 hours ago   Exited (1) 19 hours ago                                                     todo-backend-app-1
+49419c7f4af0   d2673ee465b4     "docker-entrypoint.s…"   29 hours ago   Exited (137) 29 hours ago                                                   part12-containers-applications-main-app-1
+3cf9c95ad354   77efb17e4931     "docker-entrypoint.s…"   38 hours ago   Exited (137) 38 hours ago                                                   objective_hellman
+e125b8afe890   fs-hello-world   "docker-entrypoint.s…"   39 hours ago   Exited (0) 39 hours ago                                                     wonderful_cohen
+1108e548ac46   ubuntu           "bash"                   45 hours ago   Exited (0) 43 hours ago                                                     funny_swartz
+1ee4bd78e27b   hello-world      "/hello"                 45 hours ago   Exited (0) 45 hours ago                                                     pedantic_buck
+[?2004h]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ [K]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ mongosh
+[?2004lbash: mongosh: orden no encontrada
+[?2004h]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ [K]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ docker exec -it [7m9bcc73b77931[27m9bcc73b77931 /bin/bach[K[Ksh[K[K[K[K[K[K[Kin/bash
+[?2004l[?2004hroot@9bcc73b77931:/# mongosh
+[?2004l]0;mongosh mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	66d889e56dd0ccb5b75e739b
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.0[0m
+Using MongoDB:		7.0.14
+[1m[33mUsing Mongosh[0m:		2.3.0
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the disableTelemetry() command.
+
+[1G[0J [1G[1G[0Jtest> [7G[1G[0Jtest> [7G[1G[0Jtest> [7G[1G[0Jtest> [7G[1G[0Jtest> [7G[1G[0Jtest> [7G[1G[0Jtest> [7G[1G[0Jtest> [7G[1G[0Jtest> [7G[1G[0Jtest> [7G[1G[0Jtest> [7Gshow dbs
+Uncaught [1m[31mMongoServerError[0m[1m[31m[Unauthorized][0m: Command listDatabases requires authentication
+[1G[0Jtest> [7Guse admin 
+switched to db admin
+[1G[0Jadmin> [8Gdb.auth([32m"[39m[32mr[39m[32mo[39m[32mo[39m[32mt[39m[32m"[39m, [32m"[39m[32me[39m[32mx[39m[32ma[39m[32mm[39m[32mp[39m[32ml[39m[32me[39m[32m"[39m)
+{ ok: [33m1[39m }
+[1G[0Jadmin> [8Gshow dbs
+[1madmin[0m         100.00 KiB
+[1mconfig[0m         72.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   40.00 KiB
+[1G[0Jadmin> [8Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gde.todos.find(ñ)][1G[0Jthe_database> de.todos.find(ñ)[31G[1G[0Jthe_database> de.todos.find(ñ[30G[1G[0Jthe_database> de.todos.find([29G[1G[0Jthe_database> de.todos.find[28G{[1G[0Jthe_database> de.todos.find[28G({)}[1G[0Jthe_database> de.todos.find({)[31G[1G[0Jthe_database> de.todos.find({[30G})[1D[1G[0Jthe_database> de.todos.find[44m([49m{})[31G[1D[1G[0Jthe_database> de.todos.find([44m{[49m})[30G[1D[1G[0Jthe_database> de.todos.find({[44m}[49m)[29G[1D[1G[0Jthe_database> de.todos.find({}[44m)[49m[28G[1D[1G[0Jthe_database> de.todos.find({})[27G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> d.todos.find({})[16G[1G[0Jthe_database> db.todos.find({})[17G[15C
+[
+  {
+    _id: ObjectId([32m'66d871246e0a8e85a15e739c'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'66d871246e0a8e85a15e739d'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.todos.insertion[1G[0Jthe_database> db.todos.insertio[32G[1G[0Jthe_database> db.todos.inserti[31G[1G[0Jthe_database> db.todos.insert[30GOne({
+[1G[0J... [5Gtext: [32m"[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m [32mb[39m[32me[39m[32ml[39m[32mt[39m[32m"[39m
+[1G[0J... [5Gdine: fals[33mfalse[39m[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0J... dne: [33mfalse[39m[6G[1G[0J... done: [33mfalse[39m[7G[1C[1C[1C[1C[1C[1C[1C[1C[1C
+Uncaught:
+[1m[31mSyntaxError[0m: Unexpected token, expected "," (3:0)
+
+[0m [90m 1 |[39m db[33m.[39mtodos[33m.[39minsertOne({[0m
+[0m [90m 2 |[39m text[33m:[39m [32m"Increase the number of tools in my tool belt"[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m done[33m:[39m [36mfalse[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m[0m
+
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m done: [33mfalse[39m[100G })
+Uncaught:
+[1m[31mSyntaxError[0m: Unexpected token, expected "," (1:74)
+
+[0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39mtodos[33m.[39minsertOne({ text[33m:[39m [32m"Increase the number of tools in my tool belt"[39m done[33m:[39m [36mfalse[39m })[0m
+[0m [90m   |[39m                                                                           [31m[1m^[22m[39m[0m
+[0m [90m 2 |[39m[0m
+
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m done: [33mfalse[39m })[103G[1D[1G[0Jthe_database> db.todos.insertOne[44m([49m{ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m done: [33mfalse[39m })[102G[1D[1G[0Jthe_database> db.todos.insertOne([44m{[49m [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m done: [33mfalse[39m })[101G[1D[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m done: [33mfalse[39m })[100G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m })[89G[15C
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'66d88cfe6dd0ccb5b75e739c'[39m)
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m })[104G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m done: [33mfalse[39m })[103G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m done: [33mfalse[39m[100G[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> show collections[31G[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId([32m'66d871246e0a8e85a15e739c'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'66d871246e0a8e85a15e739d'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'66d88cfe6dd0ccb5b75e739c'[39m),
+    text: [32m'Increase the number of tools in my tool belt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+[?2004hroot@9bcc73b77931:/# exit
+[?2004lexit
+[?2004h]0;emisael@emisael: ~/Descargas/part12-containers-applications-main/script-answers[01;32memisael@emisael[00m:[01;34m~/Descargas/part12-containers-applications-main/script-answers[00m$ exit
+[?2004lexit
+
+Script terminado en 2024-09-04 12:39:43-04:00 [CÓDIGO_SALIDA_ORDEN="0"]
