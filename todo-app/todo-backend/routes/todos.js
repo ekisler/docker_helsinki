@@ -1,5 +1,6 @@
 const express = require("express");
 const { Todo } = require("../mongo");
+const { decrementPendingTasks, incrementPendingTasks } = require("../util/counter");
 const router = express.Router();
 
 const findByIdMiddleware = async (req, res, next) => {
@@ -24,11 +25,22 @@ router.get("/", async (_, res) => {
 
 /* POST todo to listing. */
 router.post("/", async (req, res) => {
-  const todo = await Todo.create({
-    text: req.body.text,
-    done: false,
-  });
-  res.send(todo);
+  try {
+    const todo = await Todo.create({
+      text: req.body.text,
+      done: false,
+    });
+
+    const newCount = await incrementPendingTasks([todo]);
+
+    res.json({ 
+      todo: todo.toJSON(), 
+      added_todos: newCount 
+    });
+  } catch (error) {
+    console.error("Error to create todo:", error);
+    res.status(500).json({ error: "Error to create todo" });
+  }
 });
 
 /* GET todo. */
@@ -41,9 +53,24 @@ router.get("/:id", findByIdMiddleware, async (req, res) => {
 });
 
 /* DELETE todo. */
-router.delete("/", async (req, res) => {
-  await req.todo.delete();
-  res.sendStatus(200);
+router.delete("/:id", async (req, res) => {
+  try {
+    const todo = await Todo.findByIdAndDelete(req.params.id)
+    if (!todo) {
+      return res.status(404).json({ message: "Todo not found" });
+    }
+    // Devolver el todo eliminado
+
+    const newCount = await decrementPendingTasks(req.params.id);
+
+    res.json({
+      todo: todo.toJSON(),
+      remaining_todos: newCount
+    })
+  } catch (error) {
+    console.error("Error deleting todo:", error)
+    res.status(500).json({ message: "Error to delete" });
+  }
 });
 
 /* PUT todo. */
