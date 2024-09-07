@@ -17,3 +17,6 @@ services:
     command: ["redis-server", "--appendonly", "yes"]
     volumes:
       - ./redis_data:/data
+    environment:
+      - MONGO_URL=mongodb://the_username:the_password@127.0.0.1:27017/the_database
+      - REDIS_URL=redis://localhost:6379
