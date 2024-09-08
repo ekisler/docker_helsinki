@@ -1,14 +1,18 @@
 services:
   app:
-    image: hello-front-dev
-    build:
-      context: .
-      dockerfile: dev.Dockerfile
+    image: todo-front-dev
     volumes:
-      - ./:/usr/src/app
-    ports:
-      - 5173:5173
-    container_name: hello-front-dev
+      - ./todo-frontend/:/usr/src/app
+
+    server:
+      image: todo-back.dev
+      volumes:
+        -./todo-backend/:usr/src/app
+      environment:
+        -  MONGO_INITDB_ROOT_USERNAME: root
+        -  MONGO_INITDB_ROOT_PASSWORD: example
+        -  MONGO_INITDB_DATABASE: the_database
+        
   nginx:
     image: nginx:1.20.1
     volumes:
