@@ -1,0 +1,24 @@
+services:
+  app:
+    image: todo-front-dev
+    volumes:
+      - ./todo-frontend/:/usr/src/app
+
+    server:
+      image: todo-back.dev
+      volumes:
+        -./todo-backend/:usr/src/app
+      environment:
+        -  MONGO_INITDB_ROOT_USERNAME: root
+        -  MONGO_INITDB_ROOT_PASSWORD: example
+        -  MONGO_INITDB_DATABASE: the_database
+        
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy
+    depends_on:
+      - app # esperar a que el contenedor frontend arranque
