@@ -1,0 +1,6 @@
+[submodule "part12-20"]
+	path = part12-20
+	url = https://github.com/ekisler/part11-20
+[submodule "part12-21"]
+	path = part12-21
+	url = https://github.com/ekisler/part11-20
